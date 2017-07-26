@@ -25,7 +25,7 @@ Luckily, another developer has already started the job. We have a model for supe
 ***We broke this out into steps below to help complete this task. Look through them to get a sense of the scope of this code challenge, and then tackle them one by one.***
 
 1. On the superheroes index page, clicking on a superhero's name should take us to the superhero's show page.
-2. This show view should include the superhero's name (eg. Clark Kent), it's super name (eg. Superman), and it's superpower.
+2. This show view should include the superhero's name (eg. Peter Parker), it's super name (eg. Spider-Man), and it's superpower.
 3. In the superhero show page, the superpower associated with that superhero should have a link to it's own superpower show page.
 4. The show page of the superpower should include the name of the superpower and the description of what it does.
 5. As a visitor to the website, I should be able to create a new superhero. Each superhero should be created with at **Most** 1 superpower.  

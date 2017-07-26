@@ -1,28 +1,24 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Superhero.destroy_all
+Superpower.destroy_all
 
-Guest.destroy_all
+superheroes = [
+  {name:"Peter Parker", super_name:"Spider-Man"},
+  {name:"Steve Rogers", super_name:"Captain America"},
+  {name:"Bruce Banner", super_name:"Hulk"},
+  {name:"Natasha Romanoff", super_name:"Black Widow"},
+  {name:"Matthew Murdock", super_name:"Dare Devil"},
+  {name:"Reed Richards", super_name:"Mr.Fantastic"},
+  {name:"T'Challa", super_name:"Black Panther"},
+  {name:"Thor Odinson", super_name:"Thor"},
+  {name:"Tony Stark", super_name:"Iron Man"},
+  {name:"Carol Danvers", super_name:"Captain Marvel"}
+]
 
-require 'csv'
-
-csv_text = File.read(Rails.root.join('lib', 'seeds', 'daily_show_guests.csv'))
-csv = CSV.parse(csv_text, :headers => true, :encoding => 'ISO-8859-1')
-csv.first(100).each do |row|
-  g = Guest.find_or_initialize_by(name: row['Raw_Guest_List'].split(',').first )
-  g.occupation = row['GoogleKnowlege_Occupation']
-  g.save
-end
-
-date = Date.parse('2015-09-08')
-
-(1..40).each do |num|
-  Episode.create(date: date, number: num)
-  date = date.next
-end
-
-User.create(username: 'stephencolbert', password: 'bears')
+superpowers = [
+  {name:"super strength",description: "gives the wilder super human strengths"},
+  {name:"flight",description: "gives the wilder the ability to fly through the skys at supersonic speed"},
+  {name:"super human senses",description: "allows the person to user their senses at super human level"},
+  {name:"elasticity",description: "can stretch the human body to extreme lengths"},
+]
+superheroes.each {|superhero| Superhero.create(superhero)}
+superpowers.each {|superpower| Superpower.create(superpower)}
