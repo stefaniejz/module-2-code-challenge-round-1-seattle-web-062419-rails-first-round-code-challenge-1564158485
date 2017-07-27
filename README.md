@@ -34,7 +34,7 @@ Luckily, another developer has already started the job. We have a model for supe
   * Create a superpower for the superhero.
 7. Make sure no two superheroes have the same super name.
 8. Make sure there are no repeat superpowers.
-9. Add a filter to the index view of the superheroes. This will allow the user to select from a dropdown an existing superpower and display all the superheroes with that superpower on the same view page.
+9. Add a filter to the index view of the superheroes. This will allow the visitor to search for an existing superpower and display all the superheroes with that superpower on the same view page.
 
 ### Hints / Tips
 + Keep in mind that a Child model cannot be persisted without being associated with its Parent model.
