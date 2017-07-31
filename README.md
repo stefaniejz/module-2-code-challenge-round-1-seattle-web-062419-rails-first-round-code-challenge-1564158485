@@ -48,5 +48,5 @@ Luckily, another developer has already started the job. We have a model for supe
 + Keep in mind that a Child model cannot be persisted without being associated with its Parent model.
 + Also remember that more than one superhero can have the same superpower.
 + Remember we want to be RESTful. What URL should show info about a particular superhero? What URL should show a form to create a superhero? What controller actions are associated?  
-+ If your having a hard time implementing the filter, take a look at this http://guides.rubyonrails.org/form_helpers.html#a-generic-search-form, reminder we are asking for a dropdown not an input field.
++ If you're having a hard time implementing the filter, take a look at this http://guides.rubyonrails.org/form_helpers.html#a-generic-search-form, reminder we are asking for a dropdown not an input field.
 + There are probably many ways to set this up.
