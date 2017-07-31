@@ -24,6 +24,9 @@ Luckily, another developer has already started the job. We have a model for supe
 
 ***We broke this out into steps below to help complete this task. Look through them to get a sense of the scope of this code challenge, and then tackle them one by one.***
 
+![](/app/assets/images/Jul-27-2017 17-43-46.gif)
+
+
 1. On the superheroes index page, clicking on a superhero's name should take us to the superhero's show page.
 2. This show view should include the superhero's name (eg. Peter Parker), it's super name (eg. Spider-Man), and it's superpower.
 3. In the superhero show page, the superpower associated with that superhero should have a link to it's own superpower show page.
@@ -32,9 +35,14 @@ Luckily, another developer has already started the job. We have a model for supe
 6. The form to create the superhero should allow the visitor to:
   * Create a superhero with its name and super name.
   * Create a superpower for the superhero.
+
+  ![](/app/assets/images/Jul-27-2017 17-43-02.gif)
 7. Make sure no two superheroes have the same super name.
 8. Make sure there are no repeat superpowers.
 9. Add a filter to the index view of the superheroes. This will allow the visitor to search for an existing superpower and display all the superheroes with that superpower on the same view page.
+
+![](/app/assets/images/Jul-27-2017 17-56-04.gif)
+
 
 ### Hints / Tips
 + Keep in mind that a Child model cannot be persisted without being associated with its Parent model.
