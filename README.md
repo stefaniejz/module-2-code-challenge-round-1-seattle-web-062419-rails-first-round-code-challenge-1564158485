@@ -44,8 +44,9 @@ We have several different superpowers and each can be bestowed upon **more than 
 ![img](gif3.gif)
 
 ### Hints / Tips
-+ Draw your domain model and associations before you begin.
++ Draw your domain model and associations before you begin. You may have to alter the current schema to get your code working.
 + A child model cannot be persisted without being associated with its parent model.
++ Look at the seeds.rb file in the db folder. When you first seed, your Superheroes will not be associated with a Superpower. Once you make your associations, you can re-seed the database to persist the Superheroes with a Superpower.
 + More than one superhero can have the same superpower.
 + We want to be RESTful. What URL should show info about a particular superhero? What URL should show a form to create a superhero? What controller actions are associated? 
-+ If you're having a hard time implementing the filter, take a look at this http://guides.rubyonrails.org/form_helpers.html#a-generic-search-form. We are asking for a dropdown, not an input field to find a certain superpower to filter by.
++ If you're having a hard time implementing the filter, take a look at this http://guides.rubyonrails.org/form_helpers.html#a-generic-search-form. We are asking an input field to search by.
