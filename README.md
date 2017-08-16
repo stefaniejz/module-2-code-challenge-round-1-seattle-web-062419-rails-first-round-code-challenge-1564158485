@@ -20,7 +20,7 @@ You've just been hired by 'Marvel Comics' - congratulations! The production staf
 
 Luckily, another developer has already started the job. We have a model for superheroes and a model for superpowers. Visiting `/superheroes` displays all of the superheroes, and visiting `/superpowers` displays all of the superpowers. We just don't have a way to associate superheroes with superpowers. 
 
-We have several different superpowers and each can be bestowed upon **more than one superhero**. Each superhero can only weild **one superpower**. 
+We have several different superpowers and each can be bestowed upon **more than one superhero**. Each superhero can only wield **one superpower**. 
 
 ## Instructions / Deliverables
 
