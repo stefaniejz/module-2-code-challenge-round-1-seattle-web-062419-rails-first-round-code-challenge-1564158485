@@ -1,4 +1,4 @@
-# Rails Assessment
+# Rails Code Challenge
 
 It's time to put our Rails know-how to the test. Today, we have a superhero application.
 
