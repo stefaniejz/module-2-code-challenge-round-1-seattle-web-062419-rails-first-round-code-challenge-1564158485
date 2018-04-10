@@ -38,7 +38,7 @@ Read through the instructions to get a sense of the scope of this code challenge
 
 5. As a visitor to the website, I should be able to create a new superhero with its name and super name.
 
-6. The form should also allow each superhero should be created with **only one of the existing superpowers**.
+6. The form should also allow each superhero to be created with **only one of the existing superpowers**.
 
   ![img](add_hero.gif)
 
