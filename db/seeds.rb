@@ -5,7 +5,7 @@ powers = [
   {name:"super strength", description: "gives the wielder super human strengths" },
   {name:"flight", description: "gives the wielder the ability to fly through the skys at supersonic speed" },
   {name:"super human senses", description: "allows the person to user their senses at super human level" },
-  {name:"elasticity", description: "can stretch the human body to extreme lengths" },
+  {name:"elasticity", description: "can stretch the human body to extreme lengths" }
 ]
 
 powers.each {|power| Power.create(power)}
@@ -20,7 +20,7 @@ heroines = [
   {name:"Jean Grey", super_name:"Dark Phoenix" },
   {name:"Ororo Munroe", super_name:"Storm" },
   {name:"Shadowcat", super_name:"Kitty Pryde" },
-  {name:"Elektra", super_name:"Elektra Natchios" },
+  {name:"Elektra", super_name:"Elektra Natchios" }
 ]
 
 # ---------------
