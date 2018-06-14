@@ -1,6 +1,6 @@
 # Rails Code Challenge
 
-It's time to put our Rails know-how to the test. Today, we have a web application that allows for us to build.
+It's time to put our Rails know-how to the test. Today, we are asked to build an application that will be a superheroine character creator!
 
 ## Objectives
 + MVC
@@ -16,7 +16,7 @@ Before you begin, fork and clone this repo, run `bundle install` and `rake db:mi
 
 ## The Domain
 
-You've just been hired by 'Marvel Comics' - congratulations! The production staff wants you to make a website that will allow the fans to create [heroines, a woman superhero](http://www.dictionary.com/browse/heroine). To do this, we need a way to keep track of all of the new heroines and powers that have been created by the fans.
+You've just been hired by 'Marvel Comics' - congratulations! The production staff wants you to make a website that will allow the fans to create [heroines, women superheroes](http://www.dictionary.com/browse/heroine). To do this, we need a way to keep track of all of the new heroines and powers that have been created by the fans.
 
 Luckily, another developer has already started the job. We have a model for heroines and a model for powers. Once the database is seeded, visiting `/heroines` displays all of the heroines, and visiting `/powers` displays all of the powers. We just don't have a way to associate heroines with powers.
 
