@@ -2,25 +2,25 @@ Heroine.destroy_all
 Power.destroy_all
 
 powers = [
-  {name:"super strength",description: "gives the wielder super human strengths"},
-  {name:"flight",description: "gives the wielder the ability to fly through the skys at supersonic speed"},
-  {name:"super human senses",description: "allows the person to user their senses at super human level"},
-  {name:"elasticity",description: "can stretch the human body to extreme lengths"},
+  {name:"super strength", description: "gives the wielder super human strengths"},
+  {name:"flight", description: "gives the wielder the ability to fly through the skys at supersonic speed"},
+  {name:"super human senses", description: "allows the person to user their senses at super human level"},
+  {name:"elasticity", description: "can stretch the human body to extreme lengths"},
 ]
 
 powers.each {|power| Power.create(power)}
 
 heroines = [
-  {name:"Peter Parker", super_name:"Spider-Man" },
-  {name:"Steve Rogers", super_name:"Captain America" },
-  {name:"Bruce Banner", super_name:"Hulk" },
+  {name: "Kamala Khan", super_name: "Ms. Marvel"},
+  {name:"Gwen Stacy", super_name:"Spider-Gwen" },
+  {name:"Janet Van Dyne", super_name:"The Wasp" },
+  {name:"Wanda Maximoff", super_name:"Scarlet Witch" },
   {name:"Natasha Romanoff", super_name:"Black Widow" },
-  {name:"Matthew Murdock", super_name:"Dare Devil" },
-  {name:"Reed Richards", super_name:"Mr.Fantastic" },
-  {name:"T'Challa", super_name:"Black Panther" },
-  {name:"Thor Odinson", super_name:"Thor" },
-  {name:"Tony Stark", super_name:"Iron Man" },
-  {name:"Carol Danvers", super_name:"Captain Marvel" }
+  {name:"Carol Danvers", super_name:"Captain Marvel" },
+  {name:"Jean Grey", super_name:"Dark Phoenix" },
+  {name:"Ororo Munroe", super_name:"Storm" },
+  {name:"Shadowcat", super_name:"Kitty Pryde" },
+  {name:"Elektra", super_name:"Elektra Natchios" }
 ]
 
 # ---------------
