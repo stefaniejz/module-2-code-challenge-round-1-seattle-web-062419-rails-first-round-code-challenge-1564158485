@@ -1,6 +1,6 @@
-class CreateSuperpowers < ActiveRecord::Migration[5.0]
+class CreatePowers < ActiveRecord::Migration[5.0]
   def change
-    create_table :superpowers do |t|
+    create_table :powers do |t|
       t.string :name
       t.string :description
 
