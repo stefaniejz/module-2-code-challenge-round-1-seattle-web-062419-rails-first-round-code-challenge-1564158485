@@ -19,8 +19,8 @@ heroines = [
   {name:"Carol Danvers", super_name:"Captain Marvel" },
   {name:"Jean Grey", super_name:"Dark Phoenix" },
   {name:"Ororo Munroe", super_name:"Storm" },
-  {name:"Shadowcat", super_name:"Kitty Pryde" },
-  {name:"Elektra", super_name:"Elektra Natchios" }
+  {name:"Kitty Pryde", super_name:"Shadowcat" },
+  {name:"Elektra Natchios", super_name:"Elektra" }
 ]
 
 # ---------------
