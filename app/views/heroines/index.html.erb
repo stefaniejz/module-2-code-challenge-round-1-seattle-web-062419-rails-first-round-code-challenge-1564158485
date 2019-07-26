@@ -18,6 +18,12 @@
   <%= submit_tag("Search") %>
  <% end %>
 
+ <%  @powers.each do |p|%>
+  <% p.heroines.each do |h| %>
+  <li><%= h.name %></li>
+  <% end %> 
+  <% end %>
+
 
 
 

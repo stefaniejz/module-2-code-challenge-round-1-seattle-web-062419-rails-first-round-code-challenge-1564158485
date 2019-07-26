@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(version: 20190726163827) do
     t.string "super_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.string "power_id"
+    t.string "power_id"s
   end
 
   create_table "powers", force: :cascade do |t|

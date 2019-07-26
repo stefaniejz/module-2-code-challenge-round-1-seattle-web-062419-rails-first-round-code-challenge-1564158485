@@ -1,7 +1,9 @@
 class HeroinesController < ApplicationController
   def index
     @heroines = Heroine.all
-  
+    @powers = Power.where(name:params[:id])
+
+
   end
 
   def show
